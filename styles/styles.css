@@ -7,7 +7,7 @@ html {
 body {
     width: 1000px;
     margin: 0 auto;
-    background-color: brown;
+    background-color: whitesmoke;
     padding: 0px 20px 20px 20px; /* top right bottom left */
     border: 5px solid black
 }
