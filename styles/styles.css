@@ -1,3 +1,34 @@
-p {
-    color: red;
+html {
+    font-size: 20px;
+    font-family: 'Tourney', cursive;
+    background-color: #FFFFF1;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: brown;
+    padding: 0px 20px 20px 20px; /* top right bottom left */
+    border: 5px solid black
+}
+
+h1 {
+    margin: 0; /* to overwrite browser's default gap */
+    padding: 20px 0;
+    color: darkblue;
+    text-shadow: 3px 3px 10px black; /* horizontal offset, vertical offset, blur, color of shade */
+    font-size: 100px;
+    text-align: center;
+}
+
+img {
+    width: 400px; /* to make the image smaller using css */
+    display: block;
+    margin: 0 auto;
+}
+
+p, li {
+    font-size: 30px;
+    line-height: 2;
+    letter-spacing: 1px;
 }
